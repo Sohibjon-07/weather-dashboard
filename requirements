@@ -1,0 +1,38 @@
+Project 1. Weather Dashboard with Historical Data Analysis
+
+
+Description:
+Develop a web application that displays current weather information and historical weather trends for a user-specified location. The application will fetch real-time weather data and allow users to view and analyze historical weather patterns.
+Libraries/Frameworks:
+Flask: For backend development and handling API requests.
+SQLite: For database management and storing historical weather data.
+Requests: For making HTTP requests to the weather API.
+Beautiful Soup: For parsing HTML (if needed for additional data scraping).
+Matplotlib/Plotly: For creating data visualizations and charts.
+HTML/CSS/JavaScript: For frontend development and user interface.
+Bootstrap: For responsive design and styling the frontend.
+Heroku: For deploying the web application.
+
+
+
+Requirements:
+    API Integration:
+Use the OpenWeatherMap API to fetch real-time weather data.
+Retrieve historical weather data using the same API or another reliable source.
+    Frontend Development:
+Create a user-friendly interface with HTML, CSS, and JavaScript.
+Allow users to input a city name to view weather information.
+    Backend Development:
+Set up a Flask server to handle API requests and serve the frontend.
+Use a SQLite database to store and retrieve historical weather data.
+    Data Visualization:
+Use Matplotlib or Plotly to create charts showing historical weather trends (e.g., temperature, precipitation).
+    Deployment:
+Deploy the application on Heroku or another cloud service.
+Ensure the application is accessible and functional online.
+
+
+    Example Output Result:
+User enters a city name (e.g., "Toronto").
+The application displays current weather information (temperature, humidity, etc.).
+Users can view charts showing temperature trends over the past week or month.
